@@ -21,7 +21,7 @@ PetCare es un sistema en Kotlin para gestionar la atención en una clínica vete
 
 PetCare gestiona ingreso y egreso de mascotas, asignación de boxes y cobro según reglas de negocio, generando tickets y reportes de cierre para distintos tipos de pacientes y propietarios.
 
-> [!NOTE]
+> [!NOTA]
 > El sistema está implementado íntegramente en Kotlin sobre JVM y utiliza corutinas para simular procesos internos.
 
 ---
@@ -190,7 +190,7 @@ flowchart TD
 - Nombre y especie no vacíos.
 - Tipo de dueño presente en `OwnerType`.
 
-> [!CAUTION]
+> [!IMPORTANTE]
 > Si la validación falla, se cancela el registro y se informa el mensaje de error.
 
 ### Cálculo de Tarifas
